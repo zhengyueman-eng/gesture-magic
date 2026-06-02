@@ -5,7 +5,8 @@ export type GestureType =
 
 export type EffectType =
   | 'particle_storm'
-  | 'floating_hearts';
+  | 'floating_hearts'
+  | 'polaroid_photo';
 
 export interface HandLandmark {
   x: number;
